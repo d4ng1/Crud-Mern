@@ -1,0 +1,31 @@
+Se crea una carpeta llamada src que contiene front y back
+
+Creamos 4 carpetas:
+    App que contiene los archivos js de react
+    Models que es para la base de datos y a su vez contiene un archivo llamado task.js
+    Public que es donde se convierte lo de reactJs a HTML 
+    Routes que es la carpeta que contiene las rutas y a su vez contiene un archivo llamado task.routes.js
+
+Creamos 2 archivos:
+    database.js
+    index.js
+
+Comandos en la terminal 1:
+- npm init --yes : enera un .json que sirve para configs basicas del proyecto
+- npm install express : instala expressJs
+- npm install nodemon -D : instala Nodemon que sirve para actualizar al instante cambios en el server
+- npm install morgan : instala morgan que sirve para ver por consola las peticiones que llegan al server 
+- npm install moongose: instala moongose que sirve para ver los datos y organizarlos
+Inciamos con el index.js
+
+-npm i webpack -D : instala webpack
+-npm i webpack-cli -D : instala el cli de webpack
+
+-npm i react react-dom : instalar react y el react dom
+
+-npm install @babel/core babel-loader  @babel/preset-react @babel/preset-env -D
+
+
+Si queremos iniciarlo sin ser dev: editar scripts de .json, poner "dev": "node src/index.js" y en la terminal npm run dev
+
+Si queremos iniciarlo para desarollar: editar scripts de .json, poner "dev" : "nodemon src/index.js" y en la terminal npm run dev
